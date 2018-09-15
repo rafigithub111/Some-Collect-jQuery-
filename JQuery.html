@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>Learning JQuery</title>
+</head>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<body>
+	<!-- All comment here
+
+=> First Rulse:
+	$document.ready();
+	
+	
+=>Hide kora and Show Kora:
+	
+	<p>text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the le</p>
+	
+	<button id ="demo">Hide</button>
+	<button id ="show">Show</button>
+	
+    <script>
+	$(document).ready (function(){
+	
+	$('#demo').click(function(){
+	$('p').hide(2000);
+	});
+	
+	$('#show').click(function(){
+	$('p').show(2000);
+	});
+	
+	});
+	</script>
+	
+	
+=>With add alert:
+	<p>text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the le</p>
+	<button id ="demo">Hide</button>
+	
+    <script>
+	$(document).ready (function(){
+	
+	$('#demo').click(function(){
+	$('p').hide(2000,function(){
+	alert('Hi');
+	
+	});
+	});
+	
+	});
+	</script>
+
+
+
+
+
+
+=>Toggle using:
+
+	<p>text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the le</p>
+	<button id ="demo">Hide and Show</button>
+   
+
+   <script>
+	$(document).ready (function(){
+	$('#demo').click(function(){
+	$('p').toggle(2000);
+	});
+	
+	});
+	</script>
+	
+	
+
+=> Pragraph Hide and Show;
+slideUp; slideDown; slideToggle;
+
+   <h2 id="slide1" style="width:100%; background:#ddd; padding:5px; border-radius:5px;text-align:center;">Quesaiton Part:  ype specimen book. It has survived not only f </h2>
+	<p id="slide2"style="width:100%; background:#ddd; padding:20px; border-radius:10px;display:none">text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the le</p>
+	
+    <script>
+	$(document).ready (function(){
+	$('#slide1').click(function(){
+	$('#slide2').slideToggle(2000);
+	});
+	
+	});
+	</script>
+
+
+	-->
+	
+	
+	
+	
+	
+</body>
+</html>
